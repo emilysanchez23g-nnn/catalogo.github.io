@@ -56,5 +56,7 @@ productos.forEach(producto => {
 const tarjeta = crearTarjetaProducto(producto);
 catalogo.appendChild(tarjeta);
 });
+ window.onload = renderizarCatalogo;
 }
-window.onload = renderizarCatalogo;
+
+
